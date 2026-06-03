@@ -10,7 +10,7 @@ export default function Spending(){
 
   return (
     <div>
-<h1>spendings</h1>
+
     <Spending_table />
 
 

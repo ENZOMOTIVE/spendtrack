@@ -1,9 +1,12 @@
 @import "tailwindcss";
-@import "@heroui/styles"; 
+
+
 
 @theme {
-  --font-head: var(--font-head);
-  --font-sans: var(--font-sans);
+
+  --font-head: "Archivo Black", sans-serif;
+
+  --font-sans: "Space Grotesk", sans-serif;
   --radius: var(--radius);
  
   --shadow-xs: 1px 1px 0 0 var(--border);
@@ -33,22 +36,22 @@
 }
  
 :root {
-  --radius: 0;
-  --background: #fff;
-  --foreground: #000;
-  --card: #fff;
-  --card-foreground: #000;
-  --primary: #144bef;
-  --primary-hover: #0d00ff;
-  --primary-foreground: #000;
-  --secondary: #000;
-  --secondary-foreground: #fff;
-  --muted: #aeaeae;
-  --muted-foreground: #5a5a5a;
-  --accent: #0a313c;
-  --accent-foreground: #000;
-  --destructive: #e63946;
-  --destructive-foreground: #fff;
-  --border: #000;
-  --input: #fff;
+  --radius: 20px; /* Super round, pill-like playful shapes */
+  --background: #fff0f6; /* Pastel bubblegum pink background */
+  --foreground: #2b001a; /* Super dark plum instead of black */
+  --card: #ffffff;
+  --card-foreground: #2b001a;
+  --primary: #ff007f; /* Neon Hot Pink */
+  --primary-hover: #d00068;
+  --primary-foreground: #ffffff;
+  --secondary: #70e000; /* Toxic/Slime Green for a funny high-contrast pop */
+  --secondary-foreground: #000000;
+  --muted: #f3d9fa;
+  --muted-foreground: #868e96;
+  --accent: #4cc9f0; /* Bright arcade blue */
+  --accent-foreground: #ffffff;
+  --destructive: #ff0055;
+  --destructive-foreground: #ffffff;
+  --border: #2b001a; /* Keeps a dark playful border outline */
+  --input: #ffffff;
 }
