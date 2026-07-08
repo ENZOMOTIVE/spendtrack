@@ -1,34 +1,46 @@
 # Spendtrack
 
-`spendtrack` is a Next.js application. The repository contains route files, UI components, and package scripts for local development and production builds.
+## Project Tags
+
+- `Agentic AI`
+- `Full Stack`
+
+## Overview
+
+Spendtrack is an AI/agent-oriented project with code or structure for automated assistant workflows.
 
 ## Features
 
-- Application routes/pages and reusable React components
-- Frontend build configuration for a modern web app
-- Backend entry point for API or server-side workflows
+- User-facing frontend or app interface
+- Backend service, API, websocket, bot, or server workflow
+- AI, agent, bot, MCP, or assistant-oriented automation surface
 
 ## Tech Stack
 
 - Next.js
 - React
-- TypeScript/JavaScript
-- Express/Node backend
+- Vite
+- Express
+- Node.js
+- TypeScript
+- JavaScript
+- HTML
+- CSS
 
 ## Project Structure
 
-- `.gitattributes` - project file
-- `MAO-backend` - project directory
-- `README.md` - project documentation
+- `.gitattributes` - project file or directory
+- `MAO-backend` - backend, API, bot, or server code
 - `frontend` - frontend application code
 
 ## Getting Started
 
 ### Prerequisites
 
+- Git
 - Node.js 18+
 
-### Setup
+### Setup and Run
 
 ```bash
 git clone https://github.com/ENZOMOTIVE/spendtrack.git
@@ -46,33 +58,33 @@ npm install
 npm run dev
 ```
 
-## Available Commands
+## Commands
 
-- `MAO-backend/package.json` - no npm scripts are currently defined.
-- `frontend/package.json` - scripts: `dev`, `build`, `lint`, `preview`
+- `MAO-backend/package.json`: package metadata is present; no scripts are defined yet.
+- `frontend/package.json`: `dev`, `build`, `lint`, `preview`
 
 ## Configuration
 
-- Create a local `.env` file for secrets, API keys, RPC URLs, private keys, bot tokens, or database credentials.
-- Keep `.env` files out of version control and document required variable names as the project stabilizes.
+- Document required service ports, database URLs, and API credentials before deployment.
+- Keep model/provider keys and agent secrets outside version control.
 
 ## Testing and Quality
 
 - From `frontend`, run `npm run lint`.
 - From `frontend`, run `npm run build`.
 
-## Roadmap
+## Documentation Notes
 
-- Keep setup instructions aligned with the actual project workflow.
-- Add screenshots, architecture notes, or API examples as the implementation grows.
-- Document deployment steps once the hosting target is finalized.
+- Keep this README aligned with the actual source layout and commands.
+- Add screenshots, API examples, contract addresses, or deployment links when they become stable.
+- Update the project tags when the scope changes.
 
 ## Contributing
 
-1. Create a feature branch.
-2. Make focused changes and update documentation when behavior changes.
+1. Create a focused branch for the change.
+2. Update code and documentation together.
 3. Run the relevant checks before opening a pull request.
 
 ## License
 
-No license file is currently included. Add one before distributing or reusing this project publicly.
+No license file is currently committed. Add one before distributing this project publicly.
