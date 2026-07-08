@@ -1,10 +1,22 @@
 # Spendtrack
 
-> Spendtrack is an AI-assisted workflow project that connects model-powered behavior with application or protocol tooling.
+> Spendtrack is a monthly spending tracker for recording personal expenses and reviewing spending habits.
 
 ## The Story
 
 Spendtrack starts with a simple goal: bring AI-assisted behavior into a complete product workflow instead of leaving it as a loose experiment. Its shape tells the same story: the product interface, the service layer, and the AI-assisted workflow live close enough together that a maintainer can see the project as a whole before diving into individual folders.
+
+## Detailed Description
+
+Spendtrack is a monthly spending tracker for recording personal expenses and reviewing spending habits. This README is meant to explain the project like a handoff note: what the idea is, why the repository exists, and how someone can start working with it without opening every file first.
+
+The AI layer should be treated as a product feature, not as a black box. Keep prompts, provider assumptions, tool boundaries, and expected outputs documented so future changes can be tested instead of guessed.
+
+At the top level, the most important entry points are `MAO-backend` and `frontend`. Together they show the current boundary of the project and make it easier to separate product code, support files, documentation, and experiments.
+
+The declared Node surfaces include `MAO-backend` (no scripts declared) and `frontend` (scripts: `dev`, `build`, `lint`, `preview`). Those package files are the best starting points for understanding how the app runs, builds, or validates itself.
+
+The visible stack currently points to `Next.js`, `React`, `Vite`, `Express`, `Node.js`, `TypeScript`, `JavaScript`, `HTML`, and `CSS`. Keep this list honest as the project changes so the README remains useful as a first technical map.
 
 ## What It Includes
 
